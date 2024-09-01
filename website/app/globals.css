@@ -66,4 +66,15 @@
   body {
     @apply bg-background text-foreground;
   }
+  .section {
+    @apply py-24;
+  }
+
+  .container {
+    @apply max-w-5xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .title {
+    @apply font-bold tracking-tight;
+  }
 }

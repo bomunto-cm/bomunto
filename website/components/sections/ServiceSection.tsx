@@ -25,37 +25,37 @@ const features: Feature[] = [
   {
     name: "Web App Development",
     description:
-      "We'll build you a website that's so good, it'll make all the other websites jealous. Trust me, not kidding.",
+      "Nous vous construirons un site web qui sera si bon qu'il rendra tous les autres sites web jaloux. Croyez-moi, je ne plaisante pas.",
     icon: CodeBracketIcon,
   },
   {
     name: "Web Design",
     description:
-      "Your website will be so beautiful, you'll want to frame it and hang it on your wall (but please don't).",
+      "Votre site web sera si beau que vous voudrez l'encadrer et l'accrocher à votre mur (mais s'il vous plaît, ne le faites pas).",
     icon: PencilSquareIcon,
   },
   {
     name: "Deployments and Hosting",
     description:
-      "Get your website out there in the world, where it belongs, with our lightning-fast deployment services.",
+      "Mettez votre site web en ligne, là où il doit l'être, grâce à nos services de déploiement rapides comme l'éclair.",
     icon: RocketLaunchIcon,
   },
   {
     name: "Maintenance",
     description:
-      "We keep your website running like a well-oiled machine. From optimizing performance to ensuring security, we've got you covered.",
+      "Nous veillons à ce que votre site Web fonctionne comme une machine bien huilée. De l'optimisation des performances à l'assurance de la sécurité, nous vous couvrons.",
     icon: WrenchIcon,
   },
   {
     name: "Full-Stack Development",
     description:
-      "Take your website to the next level with our full-stack development services. We've got all the skills to make your vision a reality.",
+      "Faites passer votre site web au niveau supérieur grâce à nos services de développement complets. Nous disposons de toutes les compétences nécessaires pour faire de votre vision une réalité.",
     icon: CpuChipIcon,
   },
   {
     name: "And Everything Else",
     description:
-      "Ecommerce, Landing pages, Back-end heavy, Dashboards. You name it, we've done it AND we'll do it for you.",
+      "Ecommerce, pages d'atterrissage, back-end lourd, tableaux de bord. Nous l'avons fait et nous le ferons pour vous.",
     icon: CheckCircleIcon,
   },
 ];
@@ -82,18 +82,18 @@ export default function ServiceSection() {
   };
 
   return (
-    <div className="relative bg-white py-12">
+    <div className="relative bg-white">
       <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
           <h2 className="text-base font-semibold leading-7 text-indigo-600">
-            Our Services
+            Nos services
           </h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            We Handle Pretty Much Everything!
+            Nous nous occupons de presque tout !
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            From design to deployment, we take care of it all to ensure your
-            website is shipped and ready to go!
+            De la conception au déploiement, nous nous occupons de tout pour que
+            votre site web soit expédié et prêt à fonctionner !
           </p>
         </div>
         <div className="relative mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">

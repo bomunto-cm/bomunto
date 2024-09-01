@@ -6,10 +6,11 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { motion } from "framer-motion";
 
 const navigation = [
-  { name: "Acceuil", href: "#" },
-  { name: "Nos Services", href: "#" },
+  { name: "Acceuil", href: "/" },
+  { name: "Expertise", href: "nos-expertises" },
   { name: "Nos Réalisations", href: "#" },
-  { name: "Blog", href: "#" },
+/*   { name: "Blog", href: "/blog" }, */
+  { name: "FAQs", href: "" },
 ];
 
 export default function NavBar() {
@@ -22,7 +23,7 @@ export default function NavBar() {
         className="flex items-center justify-between p-6 lg:px-8"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Bomunto</span>
             <motion.p
               className="font-bold text-lg bg-clip-text bg-no-repeat text-transparent bg-gradient-to-r py-4 from-purple-500 via-violet-500 to-pink-500 [text-shadow:0_0_rgba(0,0,0,0.1)]"
@@ -36,19 +37,22 @@ export default function NavBar() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <a
+            <motion.a
               key={item.name}
               href={item.href}
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.9 }}
+              transition={{ duration: 0.1, type: "spring", stiffness: 400, damping: 17 }}
               className="text-sm font-semibold leading-6 text-gray-900"
             >
               {item.name}
-            </a>
+            </motion.a>
           ))}
         </div>
         <div className="flex flex-1 items-center justify-end gap-x-6">
           <a
-            href="#"
-            className="rounded-md bg-green-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            href="https://meet.brevo.com/bomunto-group"
+            className="rounded-md bg-green-600 px-3 py-2 text-sm font-semibold text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             Rendez-vous
           </a>
