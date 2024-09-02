@@ -21,7 +21,7 @@ const faqs = [
 
 export default function FAQs() {
   return (
-    <div className="">
+    <div id="FAQS" className="">
       <div className="mx-auto max-w-7xl px-6 py-2 sm:py-32 lg:px-8 lg:py-4">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-2xl font-bold leading-10 tracking-tight text-black">

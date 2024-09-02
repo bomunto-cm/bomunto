@@ -4,7 +4,8 @@ import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { motion } from "framer-motion";
-import { AnimatedTooltipPreview } from "../common/AnimatedToolTipPreview";
+import { AnimatedTooltipPreview } from "../common/AnimatedTooltipPreview";
+
 
 
 const navigation = [
@@ -49,8 +50,8 @@ export default function HeroSection() {
               </motion.h1>
               <p className="mt-6 text-lg max-w-3xl mx-auto font-medium text-wrap leading-8 text-gray-600">
                 Design, logo et développement de votre site web, e-commerce,
-                transformation digital & webmarketing. Devenez incomparable en
-                21 jours, garanti.
+                transformation digital & webmarketing. Tout cela en
+                30 jours, garanti.
               </p>
               <br/>
               <AnimatedTooltipPreview />

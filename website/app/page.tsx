@@ -13,13 +13,19 @@ export default function Home() {
     <main>
       <div className="mt-24 md:32 lg:mt-2 px-4 md:px-[9px]">
         <HeroSection />
-        <ServiceSection />
-        <AvisClient />
-        <FAQs/>
+        <section id="nos-expertises">
+          <ServiceSection />
+        </section>
+
+        <section id="realizations">
+          <AvisClient />
+        </section>
+        <section id="faqs">
+          <FAQs />
+        </section>
         <CTASection />
         <Footer />
       </div>
-
     </main>
   );
 }
