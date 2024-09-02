@@ -5,32 +5,28 @@ import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
 const testimonials = [
   {
     quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
+      "Nous avons confié la création de notre site web à Bomunto, et nous sommes ravis du résultat. Leur équipe a su comprendre nos besoins spécifiques et créer un site qui non seulement reflète parfaitement notre identité de marque, mais qui est aussi extrêmement fonctionnel et convivial. Le projet a été livré dans les délais impartis et avec un grand professionnalisme. Grâce à leur expertise, notre présence en ligne a été considérablement renforcée, attirant plus de visiteurs et générant davantage de leads. Nous recommandons vivement leurs services.",
     name: "Kevin Dango",
     title: "Moavis",
   },
   {
     quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
+      "Travailler avec Bomunto sur la création de notre maquette a été une expérience formidable. Ils ont fait preuve d'une créativité exceptionnelle et d'une grande attention aux détails, ce qui a permis de créer une maquette innovante et parfaitement alignée avec nos attentes. Leur capacité à comprendre et à traduire nos idées en visuels concrets est impressionnante. Le résultat final dépasse de loin nos attentes, et nous sommes impatients de collaborer à nouveau avec eux sur nos futurs projets.",
     name: "Virginie",
     title: "Vivi Service",
   },
+
   {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Jean-jacques Bagui",
+    quote:
+      "Je suis extrêmement satisfait du travail accompli par Bomunto dans la réalisation de notre maquette pour un projet d'envergure. Leur professionnalisme, leur rigueur, et leur sens du détail ont été des atouts majeurs tout au long de ce projet complexe. Ils ont su proposer des solutions créatives et adaptées, ce qui a contribué à la réussite du projet. Leur capacité à gérer des projets d'une telle ampleur est impressionnante, et je ne manquerai pas de faire appel à eux pour nos futurs besoins.",
+    name: "Jean Jacques Bagui ",
     title: "",
   },
   {
     quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
-  },
-  {
-    quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-    name: "Herman Melville",
-    title: "Moby-Dick",
+      "Nous avons sollicité Bomunto pour la refonte complète de notre site web de formation, et le résultat est tout simplement incroyable. Ils ont su moderniser notre plateforme en intégrant des fonctionnalités avancées tout en rendant l'expérience utilisateur beaucoup plus fluide et intuitive. Leur équipe a démontré une expertise technique et une créativité qui ont transformé notre site en un outil puissant pour nos utilisateurs. Nos étudiants et formateurs apprécient grandement la nouvelle interface, et nous avons déjà observé une augmentation de l'engagement et des inscriptions.",
+    name: "Njinkeu Yannick",
+    title: "Data Training",
   },
 ];
 

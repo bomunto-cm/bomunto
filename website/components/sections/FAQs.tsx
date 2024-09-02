@@ -12,11 +12,36 @@ const faqs = [
       "Non, il n'y a aucun engagement lors de l'appel. C'est une simple consultation pour discuter de vos besoins.",
   },
   {
-    question: "Est-ce que vous sous-traitez le travail ?",
+    question: "Quels sont les coûts associés à vos services ?",
     answer:
-      "Nous travaillons avec des freelances français qui ont déjà fait leurs preuves sur plusieurs projets précédents. Cela nous permet de développer à un bon rythme et de délivrer un travail d'excellence. De votre côté, vous n'avez pas à vous inquiéter de tout cela, vous serez en relation directe avec Yannis Haismann, qui s’occupera de gérer toutes vos demandes et retours. Vous aurez également accès au tableau Kanban de l'équipe, sur lequel vous pourrez intervenir si vous le souhaitez.",
+      "Les coûts varient en fonction de la portée du projet, des fonctionnalités demandées, et des exigences spécifiques. Nous vous fournirons un devis détaillé après une consultation initiale pour bien comprendre vos besoins.",
   },
-  // More questions...
+  {
+    question: "Offrez-vous une garantie sur vos services ?",
+    answer:
+      " Oui, nous offrons une garantie sur nos services pour assurer que le site fonctionne comme prévu après son lancement. Nous sommes également disponibles pour corriger tout problème qui pourrait survenir pendant cette période.",
+  },
+  {
+    question: "Refaites-vous des sites web existants ?",
+    answer:
+      "Oui, nous proposons des services de refonte pour moderniser votre site web existant. Que ce soit pour améliorer l'apparence, ajouter de nouvelles fonctionnalités ou optimiser les performances, nous pouvons vous aider à revitaliser votre site.",
+  },
+  {
+    question: "Quels sont les délais de livraison pour un site web ?",
+    answer:
+      "Les délais de livraison varient en fonction de la portée du projet et des fonctionnalités demandées. Nous nous efforçons de livrer les projets dans les 30 jours suivant le début de la conception.",
+  },
+  {
+    question:
+      "En combien de temps pouvez-vous transformer mon entreprise digitalement ?",
+    answer:
+      "Nous avons un processus éprouvé pour la transformation digitale, qui peut être réalisé en 30 jours. Cela inclut la création ou la refonte de votre site web, l'intégration de solutions e-commerce, et la mise en place de stratégies de webmarketing efficaces pour propulser votre entreprise dans l'ère numérique.",
+  },
+  {
+    question:
+      "Pourquoi devrais-je choisir vos services de design et de création de logo ? ",
+    answer: " Nous ne concevons pas de simples logos, mais des identités visuelles complètes qui captivent et inspirent. Nos designs sont conçus pour refléter l'essence de votre marque tout en étant modernes, élégants, et mémorables. En choisissant nos services, vous vous assurez d'avoir une identité visuelle qui se distingue vraiment. "
+  },
 ];
 
 export default function FAQs() {

@@ -25,37 +25,37 @@ const features: Feature[] = [
   {
     name: "Web App Development",
     description:
-      "Nous vous construirons un site web qui sera si bon qu'il rendra tous les autres sites web jaloux. Croyez-moi, je ne plaisante pas.",
+      "Nous ne construisons pas simplement des applications, nous créons des expériences numériques mémorables. Préparez-vous à un produit qui fera rougir la concurrence.",
     icon: CodeBracketIcon,
   },
   {
     name: "Web Design",
     description:
-      "Votre site web sera si beau que vous voudrez l'encadrer et l'accrocher à votre mur (mais s'il vous plaît, ne le faites pas).",
+      "Votre interface sera si esthétique qu'elle pourrait bien devenir la nouvelle référence du design digital. Vous en serez tellement fier que vous envisagerez d'en faire une œuvre d'art",
     icon: PencilSquareIcon,
   },
   {
     name: "Deployments and Hosting",
     description:
-      "Mettez votre site web en ligne, là où il doit l'être, grâce à nos services de déploiement rapides comme l'éclair.",
+      "Avec nous, votre plateforme sera en ligne en un éclair, prête à accueillir vos utilisateurs du monde entier. Pas de souci, nous nous occupons de tout",
     icon: RocketLaunchIcon,
   },
   {
     name: "Maintenance",
     description:
-      "Nous veillons à ce que votre site Web fonctionne comme une machine bien huilée. De l'optimisation des performances à l'assurance de la sécurité, nous vous couvrons.",
+      "Nous assurons que votre application fonctionne de manière fluide et sécurisée, comme une horloge bien réglée. Vous pouvez compter sur nous pour que tout roule sans accrocs.",
     icon: WrenchIcon,
   },
   {
     name: "Full-Stack Development",
     description:
-      "Faites passer votre site web au niveau supérieur grâce à nos services de développement complets. Nous disposons de toutes les compétences nécessaires pour faire de votre vision une réalité.",
+      "Des idées audacieuses ? Nous avons les compétences pour les transformer en réalité. Du design captivant à l’architecture technique solide, nous couvrons tout le processus de développement.",
     icon: CpuChipIcon,
   },
   {
     name: "And Everything Else",
     description:
-      "Ecommerce, pages d'atterrissage, back-end lourd, tableaux de bord. Nous l'avons fait et nous le ferons pour vous.",
+      "Que vous ayez besoin d'une plateforme e-commerce, d'une landing page percutante, d'un tableau de bord sophistiqué ou de toute autre solution digitale, nous sommes là pour vous accompagner. Pour nous, les limites sont faites pour être repoussées.",
     icon: CheckCircleIcon,
   },
 ];
